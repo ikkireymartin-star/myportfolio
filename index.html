@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ikki Martin Portfolio</title>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav>
+    <div class="nav-left">
+        <img src="ikki.jpg" alt="Ikki Martin" class="profile-pic">
+        <h1>Ikki Martin</h1>
+    </div>
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="home" class="hero">
+    <h2>Hello, I’m <span>Ikki Martin</span></h2>
+    <div class="hero-text">
+        <p>Welcome to my professional portfolio. Explore my projects and learn more about my skills in programming and development.</p>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p class="me">
+        I am a dedicated Computer Science student who is passionate about learning and improving my technical skills.
+        I enjoy exploring different areas of programming, from understanding algorithms to writing and analyzing code.
+        I believe that growth comes from continuous practice, curiosity, and staying consistent even when things get challenging.
+        Aside from academics, I am also interested in motorcycles and technical modifications, which reflect my hands-on mindset and attention to detail. 
+        I like understanding how things work whether in software systems or mechanical setups. I value practical knowledge, problem-solving, and applying what I learn in real-world situations.
+        I am still learning, but I am committed to becoming better every day. I see every mistake as an opportunity to improve and every challenge as a chance to grow.
+    </p>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+<h2>My Projects</h2>
+<div class="project-list">
+
+    <div class="project" data-type="image" data-src="embedded.jpg" data-desc="This project focuses on designing and developing an embedded system-based robot that can perform specific tasks automatically. The system uses a microcontroller to control sensors, motors, and other electronic components. It is programmed to respond to inputs from its environment, make decisions, and execute actions in real time. The goal of this project is to demonstrate how embedded systems can be applied in robotics to create efficient, intelligent, and automated solutions. ">
+        <img src="embedded.jpg" alt="Embedded Project">
+        <p>Embedded Systems</p>
+    </div>
+
+    <div class="project" data-type="image" data-src="contempo.jpg" data-desc="This contemporary diorama represents the importance of the Sustainable Development Goals (SDGs) in building a better and more sustainable future. The model highlights key global issues such as environmental protection, clean energy, quality education, and responsible consumption. Through this visual presentation, the project aims to raise awareness about how individuals and communities can contribute to achieving sustainability and creating positive change in society.">
+        <img src="contempo.jpg" alt="Portfolio Website">
+        <p>Contemporary World</p>
+    </div>
+
+    <div class="project" data-type="image" data-src="multi.jpg" data-desc="This project focuses on multimedia systems through digital image editing. Using editing software, we enhanced and modified a picture by adjusting colors, brightness, contrast, and other visual elements to improve its overall quality and impact. The goal of this project is to demonstrate how multimedia tools can be used creatively and effectively to communicate ideas, enhance visuals, and produce professional-quality digital content.">
+        <img src="multi.jpg" alt="UI Design">
+        <p>Multimedia</p>
+    </div>
+
+    <div class="project" data-type="image" data-src="oop.jpg" data-desc="This project involves developing a chatbot named Weather using Object-Oriented Programming (OOP) principles. The chatbot is designed to provide users with weather-related information based on their input. It applies core OOP concepts such as classes, objects, methods, and encapsulation to organize the system efficiently. The goal of this project is to demonstrate how OOP can be used to build interactive, structured, and user-friendly applications like a weather information chatbot.">
+        <img src="oop.jpg" alt="System Project">
+        <p>Object Oriented Programming</p>
+    </div>
+
+    <div class="project" data-type="video" data-src="videopitch.mp4" data-desc="This entrepreneurship project presents a video pitch introducing Verifi, an innovative mobile application designed to help users avoid scammers. The app allows individuals to verify identities, check reported scam records, and access real-time alerts to ensure safer online transactions. Through this video pitch, we aim to showcase how Verifi provides a practical and reliable solution to the growing problem of online fraud, promoting trust, security, and responsible digital interactions.">
+        <img src="logo.webp" alt="Project Video">
+        <p>Enteprenuiral mind</p>
+    </div>
+
+</div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+<h2>Contact Me</h2>
+<p>If you want to get in touch, you can reach me at <a href="mailto:ikkimartin@email.com">ikkimartin@email.com</a></p>
+<div class="social-links">
+    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+</section>
+
+<!-- Project Modal -->
+<div id="project-modal" class="modal">
+    <span class="close">&times;</span>
+    <div class="modal-content">
+        <div id="modal-media"></div>
+        <p id="modal-desc"></p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
